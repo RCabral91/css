@@ -74,6 +74,9 @@ h2{
     display: flex;
 }
 
+.col-6{
+    width: 50%;
+}
 
 .bar {
     margin: 25px 0;
