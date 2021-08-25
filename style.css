@@ -89,3 +89,21 @@ a {
 .dl {
     padding: 15px;
 }
+
+.migalha {
+    font-size: 0.7em;
+}
+
+.conosco {
+    border-style:double;
+    border-color: rgb(105, 109, 163);
+    padding: 5px; 
+    margin-inline: 10px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    width: 50%;
+}
+
+.end {
+    width: 50%;
+}

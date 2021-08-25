@@ -24,6 +24,7 @@
                 </nav>  
         </header>
         <main>
+            <a class="migalha" href="index.html">Página Inicial</a> > <label class="migalha">Fale Conosco</label>
             <p>
                 <h2>
                     Deixe sua dúvida, sugestão ou reclamação para podermos 
@@ -31,34 +32,44 @@
                 </h2>
             </p>
             <form method="POST" action="pagina-de-destino.html">
+                <div class="conosco">
+                    <div>
+                        <label>Nome:</label>
+                        <div>
+                            <input type="text" name="nome">
+                        </div>
+                    </div>
+                    <div>
+                        <label>E-mail:</label>
+                        <div>
+                            <input type="email" name="email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Telefone:</label>
+                        <div>
+                            <input type="tel" name="telefone">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Mensagem:</label>
+                        <div>
+                            <textarea name="mensagem" required></textarea>
+                        </div>
+                    </div>
+                        <div>
+                            <button type="submit">Enviar</button>
+                        </div>
+                </div>
+                <div class="end">
+                    <label>Endereço</label>
+                    <p>Rua da Bebedeira, n22, Esquina da Loucura com Doideira</p>
+                    <label>Telefone</label>
+                    <p>22 25282525</p>
+                    <label>Redes sociais</label>
+                    <p>Instagram/delirium</p>
 
-                <div>
-                    <label>Nome:</label>
-                    <div>
-                        <input type="text" name="nome">
-                    </div>
                 </div>
-                <div>
-                    <label>E-mail:</label>
-                    <div>
-                        <input type="email" name="email" required>
-                    </div>
-                </div>
-                <div>
-                    <label>Telefone:</label>
-                    <div>
-                        <input type="tel" name="telefone">
-                    </div>
-                </div>
-                <div>
-                    <label>Mensagem:</label>
-                    <div>
-                        <textarea name="mensagem" required></textarea>
-                    </div>
-                </div>
-                    <div>
-                        <button type="submit">Enviar</button>
-                    </div>
             </form>
         
         </main>
