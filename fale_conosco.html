@@ -1,13 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Fale Conosco</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Fale Conosco</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="container">
+                    <img src="logo-2.jpg" width="150px">
+                </div>
+            </div>       
+                <nav class="header-2">  
+                    <div class="container">                         
+                        <a class="header-2" href="index.html">Página inicial</a>
+                        <a class="header-2" href="quem_somos.html">Quem Somos</a>
+                        <a class="header-2" href="produtos.html">Produtos</a>   
+                        <a class="header-2" href="fale_conosco.html">Fale Conosco</a> 
+                    </div>        
+                </nav>  
+        </header>
+        <main>
+            <p>
+                <h2>
+                    Deixe sua dúvida, sugestão ou reclamação para podermos 
+                    melhorar cada vez mais nosso atendimento.
+                </h2>
+            </p>
+            <form method="POST" action="pagina-de-destino.html">
+
+                <div>
+                    <label>Nome:</label>
+                    <div>
+                        <input type="text" name="nome">
+                    </div>
+                </div>
+                <div>
+                    <label>E-mail:</label>
+                    <div>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                <div>
+                    <label>Telefone:</label>
+                    <div>
+                        <input type="tel" name="telefone">
+                    </div>
+                </div>
+                <div>
+                    <label>Mensagem:</label>
+                    <div>
+                        <textarea name="mensagem" required></textarea>
+                    </div>
+                </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+            </form>
+        
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <img src="logo-2.jpg" width="150px">                   
+                        <img src="insta.png" width="40px" height="40px">
+                        <img src="face.png" width="35px" height="35px">
+                    </div>
+                        <div>
+                            <div>                       
+                                <a href="index.html">Página inicial</a>
+                            </div>
+                            <div>
+                                <a href="quem_somos.html">Quem Somos</a>
+                            </div>
+                            <div>
+                                <a href="produtos.html">Produtos</a>  
+                            </div> 
+                            <div>
+                                <a href="fale_conosco.html">Fale Conosco</a> 
+                            </div> 
+                        </div> 
+                    
+                </div>        
+            </div>
+            <div class="footer-2">
+                <div class="container">
+                    <h2 class="h2">Criado por Rafael Cabral</h2>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>     
