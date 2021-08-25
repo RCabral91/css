@@ -14,93 +14,117 @@
                     <img src="logo-2.jpg" width="150px">
                 </div>
             </div>       
-                <nav class="header-2">  
-                    <div class="container">                         
-                        <a class="header-2" href="index.html">Página inicial</a>
-                        <a class="header-2" href="quem_somos.html">Quem Somos</a>
-                        <a class="header-2" href="produtos.html">Produtos</a>   
-                        <a class="header-2" href="fale_conosco.html">Fale Conosco</a> 
-                    </div>        
-                </nav>  
+            <nav class="header-2">  
+                <div class="container"> 
+                    <div class="row">    
+                        <div class="col-6">               
+                            <a class="header-2" href="index.html">Página inicial</a>
+                            <a class="header-2" href="quem_somos.html">Quem Somos</a>
+                            <a class="header-2" href="produtos.html">Produtos</a>   
+                            <a class="header-2" href="fale_conosco.html">Fale Conosco</a> 
+                        </div>
+                        <div class="col-6 text-right">
+                            <img src="carrinho-de-compras.jpg" width="40px">
+                        </div>
+                    </div> 
+                </div>        
+            </nav>  
         </header>
         <main>
-            <a class="migalha" href="index.html">Página Inicial</a> > <label class="migalha">Fale Conosco</label>
-            <p>
-                <h2>
-                    Deixe sua dúvida, sugestão ou reclamação para podermos 
-                    melhorar cada vez mais nosso atendimento.
-                </h2>
-            </p>
-            <form method="POST" action="pagina-de-destino.html">
-                <div class="conosco">
-                    <div>
-                        <label>Nome:</label>
-                        <div>
-                            <input type="text" name="nome">
+            <section>
+            <a class="migalha" href="index.html">Página Inicial</a> 
+            <label class="migalha">>Fale Conosco</label>
+            </section>
+            <section>
+                <p>
+                    <h1>
+                        Deixe sua dúvida, sugestão ou reclamação para podermos 
+                        melhorar cada vez mais nosso atendimento.
+                    </h1>
+                </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8">
+                            <form method="POST" action="pagina-de-destino.html">
+                                <div class="conosco">
+                                    <div>
+                                        <h2>Nome:</h2>
+                                        <div class="dl">
+                                            <input class="text-center p-15 w-60" type="text" name="nome">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2>E-mail:</h2>
+                                        <div class="dl">
+                                            <input class="text-center p-15 w-60" type="email" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2>Telefone:</h2>
+                                        <div class="dl">
+                                            <input class="text-center p-15 w-60" type="tel" name="telefone">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2>Mensagem:</h2>
+                                        <div class="dl">
+                                            <textarea class="text-center p-15 w-60" name="mensagem" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="dl">
+                                        <button type="submit">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4 text-center">
+                            <h2>Endereço</h2>
+                            <h3 class="h3">Rua da Bebedeira, n22, <br>
+                                Esquina da Loucura com Doideira-NF</h3>
+                            <h2>Telefone</h2>
+                            <h3 class="h3">22 25282525</h3>
+                            <h2>Redes sociais</h2>
+                            <h3 class="h3">@deliriumdofeijao</h3>
                         </div>
                     </div>
-                    <div>
-                        <label>E-mail:</label>
-                        <div>
-                            <input type="email" name="email" required>
-                        </div>
-                    </div>
-                    <div>
-                        <label>Telefone:</label>
-                        <div>
-                            <input type="tel" name="telefone">
-                        </div>
-                    </div>
-                    <div>
-                        <label>Mensagem:</label>
-                        <div>
-                            <textarea name="mensagem" required></textarea>
-                        </div>
-                    </div>
-                        <div>
-                            <button type="submit">Enviar</button>
-                        </div>
                 </div>
-                <div class="end">
-                    <label>Endereço</label>
-                    <p>Rua da Bebedeira, n22, Esquina da Loucura com Doideira</p>
-                    <label>Telefone</label>
-                    <p>22 25282525</p>
-                    <label>Redes sociais</label>
-                    <p>Instagram/delirium</p>
+            </section>
 
-                </div>
-            </form>
+                
         
         </main>
         <footer>
             <div class="footer">
                 <div class="container">
                     <div class="row">
-                        <img src="logo-2.jpg" width="150px">                   
-                        <img src="insta.png" width="40px" height="40px">
-                        <img src="face.png" width="35px" height="35px">
+                        <div class="col-4">
+                            <img src="logo-2.jpg" width="150px"> 
+                            <div>
+                                <div>                       
+                                    <a href="index.html">Página inicial</a>
+                                </div>
+                                <div>
+                                    <a href="quem_somos.html">Quem Somos</a>
+                                </div>
+                                <div>
+                                    <a href="produtos.html">Produtos</a>  
+                                </div> 
+                                <div>
+                                    <a href="fale_conosco.html">Fale Conosco</a> 
+                                </div> 
+                            </div> 
+                        </div>                  
+                        <div class="col-4"></div>
+                        <div class="col-4 text-right">
+                            <img src="insta.png" width="40px" height="40px">
+                            <img src="face.png" width="35px" height="35px">
+                        </div>
                     </div>
-                        <div>
-                            <div>                       
-                                <a href="index.html">Página inicial</a>
-                            </div>
-                            <div>
-                                <a href="quem_somos.html">Quem Somos</a>
-                            </div>
-                            <div>
-                                <a href="produtos.html">Produtos</a>  
-                            </div> 
-                            <div>
-                                <a href="fale_conosco.html">Fale Conosco</a> 
-                            </div> 
-                        </div> 
-                    
                 </div>        
             </div>
             <div class="footer-2">
                 <div class="container">
-                    <h2 class="h2">Criado por Rafael Cabral</h2>
+                    <h2 class="rodape">Criado por Rafael Cabral</h2>
                 </div>
             </div>
         </footer>

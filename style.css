@@ -1,10 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 html, body {
     min-height: 100%;
 }
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: rgb(222, 224, 228)
+    background-color: rgb(222, 224, 228);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.h3 { font-weight: 400}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.double-border {
+    border-style:double;
+    border-color: rgb(105, 109, 163);
+}
+
+.p-5 { padding: 5px;}
+
+.p-15 { padding: 15px;}
+
+.w-60 { width: 60%;}
+
+.my-15 {
+    margin: 15px 0;
 }
 
 .header {
@@ -13,8 +45,8 @@ body {
 }
  
 .header-2 {
-    background-color: rgb(102, 181, 245);
-    padding: 15px;
+    background-color: #66b5f5;
+    padding: 15px 15px 15px 5px;
     color: black;
 }
 
@@ -44,66 +76,59 @@ main {
 
 .d {
     padding: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3em;
     color: black;
 }
-.col-4{
-    width: 33.3%;
-    border-style:double;
-    border-color: rgb(105, 109, 163);
-    padding: 5px; 
-    margin-inline: 10px;
-    text-align: center;
-    margin: 15px 0 15px 0;
-}
+.col-4{ width: 33.3%;}
 
-h2{
+.col-6{ width: 50%;}
+
+.col-8 { width: 66.7%; }
+
+h1{
     color: black;
     text-shadow: 5px 5px 5px rgb(105, 109, 163);
     font-size: 2em;
     margin: 0;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
-.h2 {
+
+.h1 {
     font-size: 0.5em;
     text-align: center;
 }
 
+.button {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
 .row {
     display: flex;
 }
 
-.col-6{
-    width: 50%;
-}
+.bar { margin: 25px 0;}
 
-.bar {
-    margin: 25px 0;
-}
-
-a {
+a { 
     color: black;
-    font-family: 'Arial Narrow Bold', sans-serif
-}
-.dl {
-    padding: 15px;
+    text-decoration: none;
 }
 
-.migalha {
-    font-size: 0.7em;
-}
+.dl { padding: 15px;}
+
+.migalha { font-size: 0.7em;}
 
 .conosco {
     border-style:double;
     border-color: rgb(105, 109, 163);
     padding: 5px; 
-    margin-inline: 10px;
     text-align: center;
     margin: 15px 0 15px 0;
-    width: 50%;
 }
 
-.end {
-    width: 50%;
+.rodape { 
+    font-size: 0.4em;
+    text-align: center;
 }
